@@ -1,0 +1,123 @@
+* {margin: 0px;
+   padding: 0px;}
+
+
+body {
+	background: url(img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;}
+
+
+header {width: 1100px;
+		height: 90px;
+		margin-left: 207px;
+		display: flex;
+		justify-content: space-between;}
+
+header img {width: 260px;
+			height: 24px;
+			margin-top: 20px;}
+
+header ul {display: flex;
+			margin-top: 20px}
+
+header li {list-style-type: none;
+		 margin: 3px 20px 0px 0px}
+
+header a {text-decoration: none;
+		color: #af670a;
+		font-size: 13px;}
+
+header a:hover {color: white;
+				transition: 0.5s;}
+
+
+nav {margin-left: 207px;}
+
+#nav {width: 1100px;
+	height: 700px;;
+	display: flex;}
+
+
+article {width: 720px;
+	height: 700px;}
+
+section {height: 370px;
+		display: flex;}
+
+section #sessão1 {width: 50%;
+				height: 370px;
+				padding: 10px 0px 0px 20px}
+
+
+section #sessão1 h3 {color: #227115;
+					margin-bottom: 10px;
+					font-size: 12px;}
+
+section #sessão1 iframe {margin-bottom: 10px;}	
+
+section #sessão1 a {text-decoration: none;
+					color: #af670a;}
+
+section #sessão1 a:hover {color: #227115;
+							transition: 0.5s;}
+
+
+section #sessão1 ul {margin-left: 25px;}					
+
+
+section #sessão2 iframe {width: 270px;
+						height: 150px;
+						margin-bottom: 10px;}
+
+section #sessão2 h3 {color: #227115;
+					margin-bottom: 10px;
+					font-size: 12px;}
+
+section #sessão2 a {text-decoration: none;
+					color: #af670a;}
+
+section #sessão2 P {width: 280px;
+					margin-bottom: 5px;}
+
+section #sessão2 a:hover {color: #227115;
+							transition: 0.5s;}
+
+section #sessão2 ul {margin-left: 25px;}
+
+
+aside {width: 350px;
+	height: 800px;
+	margin-left: 30px;
+	background: #ebe7dd;}
+
+
+#agendamento {margin-top: 15px;
+			  width: 350px;
+			  height: 170px;
+			  padding-top: 10px;
+			 box-sizing: border-box;
+			padding-left: 40px ;
+			background: #cdc8b1;}
+
+#agendamento input[type="submit"] {padding: 10px 65px 10px 65px; 
+								background: #9b9271;
+								color: white;
+								border: none;}
+
+#agendamento input[type="number"] {width: 35px;
+								 margin-left: 4px;}
+
+#agendamento input[type="date"] {margin-left: 4px;}
+
+#agendamento h4 {margin-top: 3px;}
+
+#agendamento h3 {margin-top: 7px;
+				color: #86521a;}
+
+#flex {display: flex;
+	   margin-top: 10px;}
+
+#galeria h3 {padding: 15px 0px 15px 50px }
+
+#galeria img {padding-left: 50px;
+			padding-bottom: 30px;}
